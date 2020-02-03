@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="MySyncFolderCase-20191103144010" tests="3" time="40.663">
+	<testcase classname="MySyncFolderCase" name="test_uploadfile" time="23.688"/>
+	<testcase classname="MySyncFolderCase" name="test_download_folder" time="11.005"/>
+	<testcase classname="MySyncFolderCase" name="test_addnewfolder" time="5.971"/>
+	<system-out>
+<![CDATA[正在進行打包下載
+['desktop.ini', 'image_2.png', 'ProPlus2019Retail.img', 'Test (1).7z', 'Test (10).7z', 'Test (11).7z', 'Test (2).7z', 'Test (3).7z', 'Test (4).7z', 'Test (5).7z', 'Test (6).7z', 'Test (7).7z', 'Test (8).7z', 'Test (9).7z', 'Test.7z']
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

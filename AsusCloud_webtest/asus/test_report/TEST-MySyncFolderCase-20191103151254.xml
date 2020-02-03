@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="MySyncFolderCase-20191103151254" tests="3" time="25.481">
+	<testcase classname="MySyncFolderCase" name="test_uploadfile" time="22.423"/>
+	<testcase classname="MySyncFolderCase" name="test_download_folder" time="2.974">
+		<error message="Message: element click intercepted: Element &lt;label _ngcontent-c13=&quot;&quot; class=&quot;label-checkbox&quot;&gt;...&lt;/label&gt; is not clickable at point (277, 196). Other element would receive the click: &lt;bs-modal _ngcontent-c7=&quot;&quot; class=&quot;fade modal in&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; aria-hidden=&quot;false&quot; style=&quot;display: inline;&quot;&gt;...&lt;/bs-modal&gt;
+  (Session info: chrome=77.0.3865.120)
+" type="ElementClickInterceptedException">
+<![CDATA[Traceback (most recent call last):
+  File "test_MySyncFolder.py", line 112, in test_download_folder
+    MySyncFolder.assign_folder()
+  File "D:\AsusCloud_webtest\asus\test_case\page_obj\MySyncFolderPage.py", line 104, in assign_folder
+    self.find_element(*self.assign_folder_loc).click()
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label _ngcontent-c13="" class="label-checkbox">...</label> is not clickable at point (277, 196). Other element would receive the click: <bs-modal _ngcontent-c7="" class="fade modal in" role="dialog" tabindex="-1" aria-hidden="false" style="display: inline;">...</bs-modal>
+  (Session info: chrome=77.0.3865.120)
+
+]]>		</error>
+	</testcase>
+	<testcase classname="MySyncFolderCase" name="test_addnewfolder" time="0.084">
+		<error message="Message: element click intercepted: Element &lt;img _ngcontent-c13=&quot;&quot; src=&quot;assets/img/icon/30px/svg/icon_add-bea6bd73fd.svg&quot;&gt; is not clickable at point (1207, 76). Other element would receive the click: &lt;bs-modal _ngcontent-c7=&quot;&quot; class=&quot;fade modal in&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; aria-hidden=&quot;false&quot; style=&quot;display: inline;&quot;&gt;...&lt;/bs-modal&gt;
+  (Session info: chrome=77.0.3865.120)
+" type="ElementClickInterceptedException">
+<![CDATA[Traceback (most recent call last):
+  File "test_MySyncFolder.py", line 84, in test_addnewfolder
+    MySyncFolder.add_butn()
+  File "D:\AsusCloud_webtest\asus\test_case\page_obj\MySyncFolderPage.py", line 61, in add_butn
+    self.find_element(*self.add_butn_loc).click()
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Eki\Anaconda3\envs\AsusCloud_webtest\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <img _ngcontent-c13="" src="assets/img/icon/30px/svg/icon_add-bea6bd73fd.svg"> is not clickable at point (1207, 76). Other element would receive the click: <bs-modal _ngcontent-c7="" class="fade modal in" role="dialog" tabindex="-1" aria-hidden="false" style="display: inline;">...</bs-modal>
+  (Session info: chrome=77.0.3865.120)
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
